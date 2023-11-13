@@ -1,1 +1,14 @@
-1
+Testing started at 22:12 ...
+Launching pytest with arguments 5.py --no-header --no-summary -q in /Users/dambanimeev/PycharmProjects/pythonProject1
+
+============================= test session starts ==============================
+collecting ... collected 3 items
+
+5.py::test_else PASSED                                                   [ 33%]
+5.py::test_if PASSED                                                     [ 66%]
+5.py::test_elif PASSED                                                   [100%]
+
+============================== 3 passed in 0.02s ===============================
+
+Process finished with exit code 0
+
