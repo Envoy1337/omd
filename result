@@ -1,1 +1,19 @@
-1
+trying:
+    '{"currentDateTime": "2023-11-09"}'
+    what_is_year_now()
+Expecting:
+    2023
+ok
+trying:
+    '{"currentDateTime": "09.11.2023"}'
+      what_is_year_now()
+Expecting:
+    2023
+ok
+trying:
+    '{"currentDateTime": "2023/11/09"}'
+    what_is_year_now()
+Expecting:
+    ValueError
+ok
+
