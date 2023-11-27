@@ -1,0 +1,20 @@
+trying:
+    fit_transform('a', 'b', 'c')
+Expecting:
+    result == [('a', [0, 0, 1]), ('b', [0, 1, 0]), ('c', [1, 0, 0])]
+ok
+trying:
+    fit_transform(['x', 'y', 'z'])
+Expecting:
+    [('x', [0, 0, 1]), ('y', [0, 1, 0]), ('z', [1, 0, 0])]
+ok
+trying:
+    fit_transform()
+Expecting:
+    TypeError
+ok
+trying:
+    fit_transform(123, 456)
+Expecting:
+    TypeError
+ok
