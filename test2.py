@@ -33,8 +33,9 @@ def decode(morse_message: str) -> str:
     decoded_letters = [
         MORSE_TO_LETTER[letter] for letter in morse_message.split()
     ]
-
     return ''.join(decoded_letters)
+
+
 @pytest.mark.parametrize("morse, expected",
                          [
                              (".... . .-.. .-.. ---", "HELLO"),
