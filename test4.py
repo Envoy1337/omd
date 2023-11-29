@@ -1,3 +1,6 @@
+import pytest
+
+
 def fit_transform(*args: str):
     """
     fit_transform(iterable)
@@ -19,9 +22,6 @@ def fit_transform(*args: str):
         transformed_rows.append((cat, seen_categories[cat]))
 
     return transformed_rows
-
-
-import pytest
 
 
 def test_one_argument_string():
