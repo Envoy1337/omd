@@ -1,5 +1,5 @@
 import pytest
-from Pizza import Pizza
+from Pizza import pizza
 
 
 class TestPizza:
