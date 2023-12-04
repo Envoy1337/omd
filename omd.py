@@ -1,5 +1,5 @@
 import click
-from Pizza import pizza
+from pizza import Pizza
 from decorator import log
 
 
