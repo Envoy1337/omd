@@ -1,0 +1,15 @@
+trying:
+    fit_transform('a', 'b', 'a', 'c')
+Expecting:
+    [('a', [0, 0, 1]), ('b', [0, 1, 0]), ('a', [0, 0, 1]), ('c', [1, 0, 0])]
+ok
+trying:
+    fit_transform(['a', 'b', 'c', 'a'])
+Expecting:
+    [('a', [0, 0, 1]), ('b', [0, 1, 0]), ('c', [1, 0, 0]), ('a', [0, 0, 1])]
+ok
+trying:
+    fit_transform(123)
+Expecting:
+    TypeError
+ok

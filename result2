@@ -1,0 +1,15 @@
+Trying:
+    decode("HELLO")
+Expecting:
+    ".... . .-.. .-.. ---"
+ok
+Trying:
+    decode("TEST")
+Expecting:
+    "- . ... -"
+ok
+Trying:
+    decode("")
+Expecting:
+    ""
+ok
